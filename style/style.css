@@ -1,0 +1,192 @@
+.container00 {
+  background-position: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container00.container01 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.35)), url(../media/bmw3.jpeg);
+}
+.container00.container02 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../media/bmwx7.jpeg);
+}
+.container00.container03 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../media/m4gts.jpeg);
+}
+.container00.container04 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/tech.gif);
+}
+.container00.container05 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../media/bmwi01.jpeg);
+}
+.container00.container06 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../media/bmwix.jpeg);
+}
+.container00.container07 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../media/bmwi8.jpeg);
+}
+.container00.container08 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../media/bmwi3.jpeg);
+}
+.container00.container09 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../media/MTownlogo.jpg);
+}
+.container00.container10 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../media/m3m4.jpeg);
+}
+.container00.container11 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../media/compettition.jpeg);
+}
+.container00.carrossel01 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/carrosel1.jpeg);
+}
+.container00.carrossel02 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/carrosel2.webp);
+}
+.container00.carrossel03 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/carrosel3.jpeg);
+}
+.container00.carrossel04 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/carrosel4.jpeg);
+}
+.container00.carrossel05 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/carrosel5.jpeg);
+}
+
+* {
+  color: white;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+.mediumTitle {
+  max-width: 650px;
+  margin-bottom: 25px;
+}
+
+.shortTitle {
+  max-width: 350px;
+  margin-bottom: 25px;
+}
+
+.masked {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navBarPc {
+  max-width: 120px;
+  margin-left: -10px;
+  margin-right: 20px;
+}
+
+#button {
+  padding: 15px 35px;
+  border: 2px solid white;
+}
+
+.arrowDown {
+  max-width: 90px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.header {
+  font-size: 30px;
+}
+
+.contactInfo {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+}
+
+@media (max-width: 1024px) {
+  .numbers h1 {
+    font-size: 20px !important;
+  }
+  .numbers p {
+    font-size: 15px !important;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+
+  h2 {
+    font-size: 45px !important;
+  }
+
+  h3 {
+    font-size: 40px !important;
+  }
+
+  h4 {
+    font-size: 35px !important;
+  }
+
+  h5 {
+    font-size: 30px !important;
+  }
+
+  p {
+    font-size: 20px !important;
+  }
+}
+.electric {
+  max-width: 900px;
+  text-align: center;
+}
+.electric h1 {
+  font-size: 120px;
+}
+.electric p {
+  font-size: 40px;
+}
+
+.contentRight {
+  margin-left: 75%;
+}
+
+@media (max-width: 1024px) {
+  .contentRight {
+    margin-left: 0%;
+  }
+}
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.numbers h1 {
+  font-size: 50px;
+}
+.numbers p {
+  font-size: 20px;
+}
+
+#overViewPosition {
+  max-width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  #overViewPosition {
+    max-width: fit-content;
+    margin-left: 5%;
+    padding-top: 15%;
+    position: relative;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

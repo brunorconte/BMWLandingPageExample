@@ -1,0 +1,33 @@
+.numbers {
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+    h1 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+#overViewPosition {
+    max-width: 500px;
+    margin-left: 13%;
+    padding-top: 15%;
+    position: relative;
+}
+
+@media (max-width: 1024px) {
+    #overViewPosition {
+        max-width: fit-content;
+        margin-left: 5%;
+        padding-top: 15%;
+        position: relative;
+    }
+
+}

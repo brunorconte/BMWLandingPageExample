@@ -1,0 +1,21 @@
+.electric {
+    h1 {
+        font-size: 120px;
+    }
+    p {
+        font-size: 40px;
+    }
+    max-width: 900px;
+
+    text-align: center;
+}
+
+.contentRight {
+    margin-left: 75%;
+}
+
+@media (max-width: 1024px) {
+    .contentRight {
+        margin-left: 0%;
+    }
+}

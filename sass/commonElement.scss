@@ -1,0 +1,143 @@
+.container00 {
+    &.container01{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.35))), url(../media/bmw3.jpeg);
+    }
+    &.container02{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35))), url(../media/bmwx7.jpeg);
+    }
+    &.container03{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))), url(../media/m4gts.jpeg);
+    }
+    &.container04{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))), url(../media/tech.gif);
+    }
+    &.container05{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))), url(../media/bmwi01.jpeg);
+    }
+    &.container06{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))), url(../media/bmwix.jpeg);
+    }
+    &.container07{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))), url(../media/bmwi8.jpeg);
+    }
+    &.container08{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))), url(../media/bmwi3.jpeg);
+    }
+    &.container09{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))), url(../media/MTownlogo.jpg);
+    }
+    &.container10{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))), url(../media/m3m4.jpeg);
+    }
+    &.container11{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))), url(../media/compettition.jpeg);
+    }
+    &.carrossel01{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))), url(../media/carrosel1.jpeg);
+    }
+    &.carrossel02{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))), url(../media/carrosel2.webp);
+    }
+    &.carrossel03{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))), url(../media/carrosel3.jpeg);
+    }
+    &.carrossel04{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))), url(../media/carrosel4.jpeg);
+    }
+    &.carrossel05{
+        background-image: linear-gradient((rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))), url(../media/carrosel5.jpeg);
+    }
+    background-position: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+* {
+    color: white;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.titlePadding {
+    padding-top: 200px;
+}
+
+.mediumTitle {
+    max-width: 650px;
+    margin-bottom: 25px;
+}
+
+.shortTitle {
+    max-width: 350px;
+    margin-bottom: 25px;
+}
+
+
+.masked {
+    background-color: rgb(0, 0, 0, .5);
+}
+
+.navBarPc {
+    max-width: 120px;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+#button {
+    padding: 15px 35px;
+    border: 2px solid white;
+}
+
+.arrowDown {
+    max-width: 90px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.header {
+    font-size: 30px;
+}
+
+.contactInfo {
+    background-color: black;
+    height: 85vh;
+    padding-top: 240px;
+}
+
+
+@media (max-width: 1024px){
+    .numbers {
+        h1 {
+        font-size: 20px !important;
+    }
+        p {
+        font-size: 15px !important;
+        }
+    }
+    h1 {
+        font-size: 40px !important;
+    }
+
+    h2 {
+        font-size: 45px !important;
+    }
+
+    h3 {
+        font-size: 40px !important;
+    }
+
+    h4 {
+        font-size: 35px !important;
+    }
+
+    h5 {
+        font-size: 30px !important;
+    }
+
+    p {
+        font-size: 20px !important;
+    }
+} 
